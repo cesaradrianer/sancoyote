@@ -6,6 +6,11 @@
     --filter-color: invert(0);
 }
 
+.album:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
 .dark-theme {
     --background-color: black;
     --primary-color: white;
@@ -56,6 +61,8 @@ main {
 
 #navbar {
     width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 
 ul {
